@@ -1,22 +1,24 @@
 #include<bits/stdc++.h>
-using namespace std ; 
+using namespace std ;
 
 int main(){
-  int64_t N ; 
-  cin >> N ; 
-  int P = N/26 ; 
-  vector<char> namae(100)   ;
-  int i = 0 ; 
-  
-  while(N != 0 ){
-    N-- ; 
-    int M = N % 26 ; 
-  	namae.at(i)  =  'a' + M ; 
-    N  /= 26 ;
-    i++ ; 
-  }
-  
-  for(int j = i - 1; j >= 0 ; j--){
-    cout << namae.at(j) ; 
-  }
+    long long N ; 
+    cin >> N ; 
+    vector<char> ans_rev ; 
+
+    while(N != 0 ){
+        N-- ; 
+        char C = 'a' + N%26   ;
+        ans_rev.push_back(C) ; 
+        N /= 26 ; 
+    }
+
+    reverse(ans_rev.begin() , ans_rev.end()) ;
+
+    for(int i = 0 ; i < ans_rev.size() ; i++){
+        cout << ans_rev.at(i) ; 
+    }
+
+    cout << endl;
+
 }
