@@ -10,7 +10,7 @@ int main(){
         T1 += A.at(i) - '0' ;
         T2 += B.at(i) - '0' ;
     }
-
+    
     int ans = max(T1 , T2) ;
     cout << ans << endl;
 }
