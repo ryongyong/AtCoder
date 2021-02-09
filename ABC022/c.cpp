@@ -1,8 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std ;
 const long long INF = 1LL << 60 ; 
-//ワーシャルフロイド法
-
 
 int main(){
     int N , M ; 
