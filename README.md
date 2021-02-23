@@ -8,7 +8,7 @@
 
 ###### 昔の問題セットは簡単なものが比較的多い
 ###### いつかは解説も書く予定(予定だけ)
-
+###### bits/stdc++.h がないと動きません。あと、Clangじゃなくてgccでコンパイルしてください
 
 ### 過去問サイト
 [Atcoder Problems](https://kenkoooo.com/atcoder/#/table/)
