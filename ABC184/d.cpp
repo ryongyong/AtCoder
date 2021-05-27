@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std ;
 
+
 const int X = 100 ; 
 double dp[X+1][X+1][X+1] ; 
 
